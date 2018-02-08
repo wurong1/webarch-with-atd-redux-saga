@@ -1,0 +1,22 @@
+[
+  {
+    "key": "overview",
+    "title": "概览",
+    "imgPath": "1.png",
+    "groups": [
+      {
+        "title": "todo",
+        "items": [
+          {
+            "key": "/overview/users",
+            "title": "人员列表"
+          },
+          {
+            "key": "/overview/tasks",
+            "title": "任务列表"
+          }
+        ]
+      }
+    ]
+  }
+]

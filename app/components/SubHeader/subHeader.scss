@@ -1,0 +1,38 @@
+@import '../../styles/base/variables';
+
+.header {
+  height: 42px;
+  background: #fff;
+  color: #4a4a4a;
+  font-size: 12px;
+  border-bottom: 2px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: normal;
+
+  .account {
+    margin-right: 28px;
+
+    > * {
+      vertical-align: middle;
+    }
+
+    a {
+      color: #4a4a4a;
+    }
+    .username {
+      padding-right: 10px;
+    }
+    .anticon-user {
+      margin-right: 10px;
+      border: 1px solid #f0f0f0;
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border-radius: 16px;
+      line-height: 32px;
+      font-size: 16px;
+    }
+  }
+}
